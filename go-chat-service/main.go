@@ -49,6 +49,7 @@ func setupRoutes() {
 	http.HandleFunc("/ws", serveWs)
 }
 func main() {
+	///statusjalksdfjlasd
 	setupRoutes()
 	http.ListenAndServe(":8080", nil)
 }
