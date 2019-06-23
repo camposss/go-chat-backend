@@ -1,4 +1,4 @@
-module github.com/camposss/react-go-chat
+module github.com/camposss/go-chat-backend
 
 go 1.12
 
