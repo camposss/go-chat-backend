@@ -6,6 +6,8 @@ jobs:
     working_directory: /go/src/github.com/camposss/go-chat-backend
     steps:
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: false
       - run:
           name: Setup Environment Variables
           command: |
